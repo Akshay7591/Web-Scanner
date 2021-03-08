@@ -6,7 +6,6 @@ def get_whois(url):
     process=os.popen(command)
     results=str(process.read())
     return results
-#print(get_whois('thenewboston.com'))
 
 
 
