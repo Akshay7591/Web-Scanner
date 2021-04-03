@@ -17,7 +17,11 @@ def gather_info(name,url):
     #print(ip_addr)
     nmap=get_nmap('-F',ip_addr)
     robots_txt=get_robots_txt(url)
-    #whois=get_whois(domain_name)
+    whois=get_whois(domain_name)
+    print('------------------------')
+    print('Print Whois Scan of the given URL-')
+    print('\n')
+    print(whois)
     create_report(name,url,domain_name,nmap,robots_txt,ip_addr)
 
 def create_report(name,full_url,domain_name,nmap,robots_txt,ip_addr):
