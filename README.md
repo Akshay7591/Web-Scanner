@@ -1,6 +1,6 @@
 The tool ‘Web Scanner’ automates this task of footprinting.
 
-On running this tool and simply entering a website the tool would return- \n
+On running this tool and simply entering a website the tool would return- 
 
 1.The domain name
 2.The IP Address
