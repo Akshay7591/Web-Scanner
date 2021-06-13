@@ -6,3 +6,4 @@ sudo apt-get install nikto -y
 sudo apt-get install nmap -y
 sudo apt-get install whois -y
 sudo apt-get install traceroute -y
+sudo apt-get install dnsutils -y
