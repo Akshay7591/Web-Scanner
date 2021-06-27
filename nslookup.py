@@ -16,7 +16,3 @@ def getDNSInfo(url):
     print(output.decode("utf=8"))
     return(output)
 
-#url = input("Enter the url:\n")
-#op = getDNSInfo(url)
-#print(op)
-#getDNSInfo("vupune.ac.in")
