@@ -29,9 +29,4 @@ def get_cms(url):
     except:
         print("Cannot Identify CMS used")
   
-    #print('robots.txt of the following site has the following data:')
-    #print(html.read().decode('utf-8'))
-    #return(html.read().decode('utf-8'))
-
-#x=str(input("Enter website:"))
-#get_robots_txt(x)
+ 
