@@ -27,8 +27,4 @@ def getInfo(url):
         j+=1
     return 1
 
-#url = input("Enter a website to scan: (include http(s)://)\n")
-#getInfo(url)
-#print(emails)
-#print(numbers)
 
