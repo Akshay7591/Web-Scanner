@@ -29,6 +29,5 @@ url = input("Enter the URL:\n")
 links = getLinks(url)
 '''
 '''
-for link in links:
-    print(link)
+
 '''
