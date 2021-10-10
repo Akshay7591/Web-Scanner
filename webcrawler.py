@@ -28,6 +28,3 @@ def getLinks(url):
 url = input("Enter the URL:\n")
 links = getLinks(url)
 '''
-'''
-
-'''
