@@ -24,7 +24,3 @@ def getLinks(url):
     return links
 
 
-'''
-url = input("Enter the URL:\n")
-links = getLinks(url)
-'''
