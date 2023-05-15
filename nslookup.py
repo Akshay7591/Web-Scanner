@@ -9,7 +9,6 @@ def getDNSInfo(url):
         command = "nslookup -type=" + type + " " + url
         process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
         output, error = process.communicate()
-        #print(type)
         
         if(error):
             print(error)
