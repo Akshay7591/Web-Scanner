@@ -19,9 +19,7 @@ os.system('mkdir '+root_dir)
 
 def gather_info(name,url):
     domain_name=get_domain_name(url)
-    #print(domain_name)
     ip_addr=get_ip_address(domain_name)
-    #print(ip_addr)
     nmap=get_nmap('-F',ip_addr)
     robots_txt=get_robots_txt(url)
     get_cms(url)
@@ -36,7 +34,6 @@ def gather_info(name,url):
     getDNSInfo(domain_name)
     get_nikto('-h',ip_addr)
     print('------------------------')
-    #create_report(name,url,domain_name,nmap,robots_txt,ip_addr)
 
 def create_report(name,full_url,domain_name,nmap,robots_txt,ip_addr):
     project_dir = root_dir + '/' + name
