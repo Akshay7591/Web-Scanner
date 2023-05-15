@@ -1,5 +1,3 @@
-#traceroute.py
-
 import os
 
 def tracert(x):
