@@ -8,15 +8,11 @@ def get_cms(url):
         path=url
     else:
         path=url+'/'
-    #html=urlopen(path+"robots.txt")
     print('-------------------------------------')
     print("Detecting CMS used.....")
     try:
         html=urlopen(path+"robots.txt")
-        #print('robots.txt of the following site has the following data:')
         c=html.read().decode('utf-8')
-        #print(c)
-        #print(html.read().decode('utf-8'))
         if '/wp-admin/' in c:
             print("WordPress")
         elif '/_api/*' in c:
